@@ -159,6 +159,41 @@ p {
   cursor: pointer;
 }
 
+/*css par justificacion*/
+
+#justificacion {
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff5c29d;
+  border: 2px solid #c48b30;
+  width: 90%;
+}
+
+#justificacion h1, #justificacion h2 {
+  color: #365534;
+  text-align: center;
+}
+
+#justificacion p {
+  text-align: center;
+}
+
+#justificacion table {
+  width: 75%;
+  margin: 15px auto;
+}
+
+#justificacion th {
+  background-color: #c48b30;
+  color: #fdf6e3;
+}
+
+#justificacion th, #justificacion td {
+  border: 1px solid #c48b30;
+  padding: 10px;
+  text-align: left;
+}
+
 @media (max-width: 600px) {
   header {
     padding: 15px;
@@ -189,3 +224,4 @@ p {
     color: #c48b30;
   }
 }
+
